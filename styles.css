@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.img-aux{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+#timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#timer-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    align-items: center;
+
+}
+
+#numbers-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-content: center;
+    align-items: center;
+}
+
+#subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #6C63FF;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    color: #9C9AB6;
+}
+
+.number-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #4D4C59
+}
+
+.title-numbers-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: #C8C8C8;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #6C63FF;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+#modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40vw;
+    align-items: center;
+}
+
+h2{
+    align-self: center;
+}
+
+#close{
+    color: wt;
+    float: right;
+    margin: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #4D4C59;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    width: 35vw;
+}
+
+#modal-title{
+    font-size: 2vw;
+    color:#6C63FF;
+    font-weight: 400;
+}

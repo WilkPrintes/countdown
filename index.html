@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Countdown</title>
+</head>
+
+<body>
+  <header>
+    <img src="./images/images/top-image.svg" class="img-aux" alt="imagem do topo">
+  </header>
+  <main>
+    <div id="timer">
+      <div id="timer-content">
+        <section id="titles-timer">
+          <h1>READY TO LAUNCH IN.....</h1>
+          <section id="display">
+            <div class="numbers-display">
+              <h2 class="title-numbers-text">Dias</h2>
+              <p id="days" class="number-text">00 :</p>
+            </div>
+            <div class="numbers-display">
+              <h2 class="title-numbers-text">Horas</h2>
+              <p id="hours" class="number-text">00 :</p>
+            </div>
+            <div class="numbers-display">
+              <h2 class="title-numbers-text">Minutos</h2>
+              <p id="minutes" class="number-text">00 :</p>
+            </div>
+            <div class="numbers-display">
+              <h2 class="title-numbers-text">Segundos</h2>
+              <p id="seconds" class="number-text">00</p>
+            </div>
+          </section>
+        </section>
+        <section id="subscribe">
+          <h3>Inscreva-se para saber mais sobre o lançamento</h3>
+          <button id="btn"> Inscreva-se </button>
+          <div id="modal">
+            <div id="content">
+              <h3 id="modal-title">Faça parte desse lançamento</h3>
+              <br>
+              <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="submit" value="Enviar">
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+      <img src="./images/images/rocket.svg" alt="Imagem Foguete">
+    </div>
+  </main>
+  <footer>
+    <img src="./images/images/bottom-image.svg" class="img-aux" alt="imagem do fundo">
+  </footer>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
