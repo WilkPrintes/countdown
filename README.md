@@ -8,6 +8,10 @@ Consolidar os conhecimentos de JavaScript como: manipulação de objetos e array
 
 Além disso, o projeto consolidou, também, conhecimentos com Vite e npm
 
+## Acesse o Site
+
+https://cowntdown.netlify.app/
+
 ##
 Link do desafio: https://efficient-sloth-d85.notion.site/Desafio-Countdown-4572ce6f5c91469abe0171f454a13e3f
 
