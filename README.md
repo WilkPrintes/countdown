@@ -8,4 +8,4 @@ Consolidar os conhecimentos de JavaScript como: manipulação de objetos e array
 
 Além disso, o projeto consolidou, também, conhecimentos com Vite e npm
 
-![imagem site](https://ibb.co/R73Mwwg)
+![imagem site](https://i.ibb.co/kM4rCCG/Image.png)
